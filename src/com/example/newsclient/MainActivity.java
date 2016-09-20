@@ -44,7 +44,7 @@ public class MainActivity extends Activity {
 			// TODO Auto-generated method stub
 
 			try {
-				String path = "http://10.15.114.126:8080/news.xml";
+				String path = "http://10.11.82.3:8080/news.xml";
 				//创建一个url对象
 				URL url = new URL(path);
 				//获取。。
