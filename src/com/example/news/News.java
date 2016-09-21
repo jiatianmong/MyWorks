@@ -1,8 +1,8 @@
-package com.example.newsclient;
+package com.example.news;
 
 public class News {
 	
-	
+	private String iv_icon;
 	private String title;
 	private String link;
 	private String url;
@@ -79,6 +79,12 @@ public class News {
 	}
 	public void setComments(String comments) {
 		this.comments = comments;
+	}
+	public String getIv_icon() {
+		return iv_icon;
+	}
+	public void setIv_icon(String iv_icon) {
+		this.iv_icon = iv_icon;
 	}
 	
 
